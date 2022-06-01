@@ -1,93 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Steven Nguyen</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-  <link href="style.css" rel="stylesheet" type="text/css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-</head>
-<body>
 
-<div class="container-fluid bg-secondary navFollow">
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <!-- <a href="#" class="navbar-brand text-white">Home</a> -->
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#toggleMobileMenu"
-            aria-controls="toggleMobileMenu"
-            aria-expanded="false"
-            aria-lable="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id=toggleMobileMenu>
-            <ul class="navbar-nav ms-auto text-center">
-                <li>
-                    <a class="nav-link text-white" href="#">About</a>
-                </li>
-                <li>
-                    <a class="nav-link text-white" href="#">Projects</a>
-                </li>
-                <!-- <li>
+<head>
+    <title>Steven Nguyen</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="c1">
+
+    <div class="container-fluid bg-secondary navFollow">
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <!-- <a href="#" class="navbar-brand text-white">Home</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu" aria-expanded="false" aria-lable="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id=toggleMobileMenu>
+                <ul class="navbar-nav ms-auto text-center">
+                    <li>
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white" href="#">Projects</a>
+                    </li>
+                    <!-- <li>
                     <a class="nav-link text-white" href="#">Game Dev Diary</a>
                 </li> -->
-                <li>
-                    <a class="nav-link text-white" href="#">Contact</a>
-                </li>
-            </ul>
+                    <li>
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <header class="container-fluid p-5 c2 text-white text-center">
+        <!-- <p class="typewriter">Hi! My name is</p> -->
+        <h1 class="pt-5 fade-in bigFont">Steven Nguyen</h1>
+        <p class="typewriter d-inline smallFont">BCIT CIT Graduate</p>
+    </header>
+
+    <div class="container mt-5 mb-5 h-100 fill-height">
+        <div class="row">
+            <div class="col-sm-8">
+                <h3>About Me</h3>
+                <p class="smallFont"> Hello! My name is Steven and I am a graduate of BCIT's CIT program and am currently looking for work
+                    to expand my portfolio and put my skills to use. I love to work in teams and learn new things.</p>
+                <p>In my 4th and last term of my program, I had the wonderful opportunity to intern at Mercana Furniture
+                    and Décor as a Junior IT Specialist. Here, I was able to put some of my skills to use such as user
+                    management in Windows Server and ADDS as well as learn new ones such as web development in C# and
+                    ASP.NET.</p>
+                <p>Currently, I am studying 3D game development in C# and Unity in a self-paced course from GameDev.tv.
+                    This is so I can further hone my skills in C# while having fun doing it.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="pfp" src="./images/me.jpg">
+            </div>
         </div>
-    </nav>
-</div>
-
-<header class="container-fluid p-5 bg-primary text-white text-center">
-  <h1 class="pt-5">Steven Nguyen</h1>
-  <p>BCIT CIT Graduate</p>
-</header>
-  
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-12">
-        <h3>About Me</h3>
-        <p> I am a graduate of BCIT's CIT program and am currently looking for work to expand my portfolio and put my skills to use. I love to work in teams and learn new things.</p>
-        <p>In my 4th and last term of my program, I had the wonderful opportunity to intern at Mercana Furniture and Décor as a Junior IT Specialist. Here, I was able to put some of my skills to use such as user management in Windows Server and ADDS as well as learn new ones such as web development in C# and ASP.NET.</p>
-        <p>Currently, I am studying 3D game development in C# and Unity in a self-paced course from GameDev.tv. This is so I can further hone my skills in C# while having fun doing it.</p>
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Skills</h3>
+                <p>To summarize the hands-on skills I have learned, they are:</p>
+                <ul>
+                    <li>Programming: Python, JavaScript, C#</li>
+                    <li>Scripting: Bash</li>
+                    <li>Databases: SQL, Microsoft SQL Server, MongoDB, ERD Modelling</li>
+                    <li>DevOps: Jenkins, Jira, Confluence, Docker, Kubernetes, Ansible, Terraform, Auto Testing</li>
+                    <li>CI/CD: Git, GitHub, GitLab</li>
+                    <li>Cloud: AWS, Azure, Google Cloud</li>
+                    <li>Administration: Windows Server, ADDS</li>
+                    <li>Development Methodologies Used: Waterfall, Agile</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Projects</h3>
+            <p>(In Contruction. In the meantime, check my LinkedIn and GitHub for more projects)</p>
+            <div class="col-sm-6">
+                <img class="img-fluid" src="./images/projectura.PNG">
+            </div>
+            <div class="col-sm-6 pt-1">
+                <h5 >Projectura</h5>
+                <ul>
+                    <li>Application made with a group for a client</li>
+                    <li>Image editing software used to project images onto a surface with a projector</li>
+                    <li>Main role was to assist with the development and create assets</li>
+                    <li>Technologies used: Python, GitHub, Trello</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row pt-1">
+            <h3>Contact</h3>
+            <div class="col-sm-12">
+                <p>Feel like chatting? Feel free to contact me! My inbox is open 24/7 &#128526;</p>
+                <ul>
+                    <li>Email: <a href="mailto: stevennguyen901@hotmail.com">stevennguyen901@hotmail.com</a></li>
+                    <li>Phone: <a href="tel:778-891-4456">778-891-4456</li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div class="col-sm-12">
-      <h3>Skills</h3>
-      <p>To summarize the hands-on skills I have learned, they are:</p>
-      <ul>
-          <li>Programming: Python, JavaScript, C#</li>
-          <li>Scripting: Bash</li>
-          <li>Databases: SQL, Microsoft SQL Server, MongoDB, ERD Modelling</li>
-          <li>DevOps: Jenkins, Jira, Confluence, Docker, Kubernetes, Ansible, Terraform</li>
-          <li>CI/CD: Git, GitHub, GitLab</li>
-          <li>Cloud: AWS, Azure, Google Cloud</li>
-          <li>Administration: Windows Server, ADDS</li>
-          <li>Development Methodologies Used: Waterfall, Agile</li>
-      </ul>
-    </div>
-  </div>
-</div>
 
 
-<footer class="bg-dark text-center text-white pt-1">
-      <section class="">
-        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Partyman901" role="button">
-            <i class="bi bi-github"></i>
-        </a>
-  
-        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/steven-nguyen-a5564b223/" role="button">
-            <i class="bi bi-linkedin"></i>
-        </a>
-      </section>
-      <div class="text-secondary">
-          @ 2022 Steven Nguyen - All Rights Reserved
-      </div>
-</footer>
+
+    <footer class="bg-dark text-center text-white pt-1">
+        <section class="">
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Partyman901" role="button">
+                <i class="bi bi-github"></i>
+            </a>
+
+            <a class="btn btn-outline-light btn-floating m-1"
+                href="https://www.linkedin.com/in/steven-nguyen-a5564b223/" role="button">
+                <i class="bi bi-linkedin"></i>
+            </a>
+        </section>
+        <div class="text-secondary pb-1">
+            <p>@ 2022 Steven Nguyen - All Rights Reserved</p>
+        </div>
+    </footer>
 
 </body>
+
 </html>
