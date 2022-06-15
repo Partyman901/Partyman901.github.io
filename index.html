@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body class="c1">
+<body>
 
     <div class="container-fluid bg-secondary navFollow">
         <nav class="navbar navbar-expand-sm navbar-light">
@@ -26,30 +26,30 @@
             <div class="collapse navbar-collapse" id=toggleMobileMenu>
                 <ul class="navbar-nav ms-auto text-center">
                     <li>
-                        <a class="nav-link text-white" href="#">About</a>
+                        <a class="nav-link text-white" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="nav-link text-white" href="#">Projects</a>
+                        <a class="nav-link text-white" href="#Projects">Projects</a>
                     </li>
                     <!-- <li>
                     <a class="nav-link text-white" href="#">Game Dev Diary</a>
                 </li> -->
                     <li>
-                        <a class="nav-link text-white" href="#">Contact</a>
+                        <a class="nav-link text-white" href="#Contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
 
-    <header class="container-fluid p-5 c2 text-white text-center">
-        <!-- <p class="typewriter">Hi! My name is</p> -->
-        <h1 class="pt-5 fade-in bigFont">Steven Nguyen</h1>
+    <header class="container-fluid p-5 c2 text-white text-center h-100">
+        <h1 class="pt-5 fade-in bigFont my-auto">Steven Nguyen</h1>
         <p class="typewriter d-inline smallFont">BCIT CIT Graduate</p>
     </header>
 
-    <div class="container mt-5 mb-5 h-100 fill-height">
-        <div class="row">
+
+    <div class="container mt-5 mb-5 h-100 fill-height" >
+        <div class="row" id="about">
             <div class="col-sm-8">
                 <h3>About Me</h3>
                 <p class="smallFont"> Hello! My name is Steven and I am a graduate of BCIT's CIT program and am currently looking for work
@@ -81,11 +81,11 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="Projects">
             <h3>Projects</h3>
             <p>(In Contruction. In the meantime, check my LinkedIn and GitHub for more projects)</p>
             <div class="col-sm-6">
-                <img class="img-fluid" src="./images/projectura.PNG">
+                <img class="img-fluid pic" src="./images/projectura.PNG">
             </div>
             <div class="col-sm-6 pt-1">
                 <h5 >Projectura</h5>
@@ -97,7 +97,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row pt-1">
+        <div class="row pt-1" id="Contacts">
             <h3>Contact</h3>
             <div class="col-sm-12">
                 <p>Feel like chatting? Feel free to contact me! My inbox is open 24/7 &#128526;</p>
@@ -128,5 +128,6 @@
     </footer>
 
 </body>
+
 
 </html>
